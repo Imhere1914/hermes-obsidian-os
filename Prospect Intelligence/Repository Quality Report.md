@@ -1,6 +1,6 @@
 # Repository Quality Report
 
-**Generated:** 2026-06-30T05:57:49.028751+00:00
+**Generated:** 2026-06-30T19:25:00.000Z
 
 Total canonical: **41**
 
@@ -13,17 +13,25 @@ Total canonical: **41**
 | website | 0 |
 | source | 0 |
 | place_id | 24 |
+| enrichment_status=incomplete | 30 |
 
 ## By canonical_status
 
 | status | count |
 |--------|------:|
 | active | 18 |
-| needs_review | 10 |
-| needs_enrichment | 11 |
-| lead_gen_suspect | 2 |
 | incomplete | 0 |
+| lead_gen_suspect | 2 |
+| needs_enrichment | 11 |
+| needs_review | 10 |
 | rejected | 0 |
+
+## By enrichment_status (v1.1)
+
+| status | count |
+|--------|------:|
+| incomplete | 30 |
+| pending | 11 |
 
 ## By vertical
 

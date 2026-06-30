@@ -1,7 +1,7 @@
 # Business Repository
 
-**Schema version:** 1 (canonical JSONL)
-**Generated:** 2026-06-30T05:57:49.028751+00:00
+**Schema version:** 1.1 (canonical JSONL)
+**Generated:** 2026-06-30T19:25:00.000Z
 **Maintained by:** SC Intelligence
 
 Canonical record store at `data/business_repository/business_repository.jsonl`.
@@ -23,6 +23,7 @@ Single source of truth — every index in this directory is a view over it.
 - Discovery → Enrich → Dedupe → Score → Merge counts always equal at every checkpoint
 - Persistence: OFF. No Supabase, no GHL, no outreach
 - Stage 2 cron/systemd is NOT enabled. Manual approval required
+- v1.1: every record carries `enrichment_status`, `crawl_history[]` (normalized), `tech_stack`, `expansion_signals`, `buying_signals`, `categories`, `website_platform`, `postal_code`, `last_extracted_at`
 
 ## Provenance
 
@@ -31,6 +32,20 @@ Single source of truth — every index in this directory is a view over it.
 - Records with email: **7**
 - Records with website: **41**
 - Records with place_id: **17**
+
+## Phase A Defect Repair
+
+- **Completed:** 2026-06-30T19:23:06.754Z
+- **Defects repaired (D-1..D-8):**
+  - D-1: crawl_history.json backfilled from per-record crawl_history[]
+  - D-2: missing enrichment_status defaulted to incomplete/pending
+  - D-3: enrichment_history.json created and backfilled from enrichment_status
+  - D-4: crawl_history[] schema normalized (crawl_id, started_at, finished_at, pages_fetched, bytes_downloaded, ok)
+  - D-5: tech_stack added to every record (default null)
+  - D-6: expansion_signals, buying_signals, categories (default []), website_platform, postal_code, last_extracted_at added (default null)
+  - D-7: scripts/validate-repository.ts created
+  - D-8: manifest updated to v1.1 with new field documentation
+- **Validator:** `npx tsx scripts/validate-repository.ts` (9/9 checks pass after repair)
 
 ## Recent Remediation
 
@@ -43,6 +58,7 @@ Single source of truth — every index in this directory is a view over it.
 - **2026-06-30 00:56 CT**: removed 15 test-fixture records sourced from `/tmp/repo-build-*`
 - Archived pre-removal state to `data/business_repository/archive/2026-06-30-0056-pre-test-artifact-removal/`
 - All test artifacts moved to `rejected_records.jsonl` with `rejection_reason=test_artifact`
+- **2026-06-30 14:25 CT**: Phase A structural defect repair (D-1..D-8) per spec; see `scripts/validate-repository.ts`
 
 See:
 - [Vertical Index](./Vertical Index.md)
