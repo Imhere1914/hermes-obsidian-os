@@ -2,18 +2,18 @@
 
 **Generated:** 2026-06-30T19:25:00.000Z
 
-Total canonical: **41**
+Total canonical: **44**
 
 ## Missing signals
 
 | signal | missing |
 |--------|--------:|
-| phone | 4 |
-| email | 34 |
+| phone | 5 |
+| email | 37 |
 | website | 0 |
 | source | 0 |
 | place_id | 24 |
-| enrichment_status=incomplete | 30 |
+| enrichment_status=incomplete | 33 |
 
 ## By canonical_status
 
@@ -22,7 +22,7 @@ Total canonical: **41**
 | active | 18 |
 | incomplete | 0 |
 | lead_gen_suspect | 2 |
-| needs_enrichment | 11 |
+| needs_enrichment | 14 |
 | needs_review | 10 |
 | rejected | 0 |
 
@@ -30,14 +30,14 @@ Total canonical: **41**
 
 | status | count |
 |--------|------:|
-| incomplete | 30 |
+| incomplete | 33 |
 | pending | 11 |
 
 ## By vertical
 
 | vertical | count |
 |----------|------:|
-| hvac | 17 |
+| hvac | 20 |
 | warehouse | 7 |
 | property_management | 6 |
 | medical | 5 |
@@ -50,18 +50,19 @@ Total canonical: **41**
 
 | region | count |
 |--------|------:|
-| Gulf_South | 41 |
+| Gulf_South | 44 |
 
 ## Rejected records
 
-Total rejected (in `rejected_records.jsonl`): **21**
+Total rejected (in `rejected_records.jsonl`): **49**
 
 ### By rejection_reason
 
 | reason | count |
 |--------|------:|
+| aggregator_or_listicle | 19 |
 | test_artifact | 15 |
-| aggregator_or_listicle | 6 |
+| empty_name | 15 |
 
 ### All rejected records
 
@@ -86,3 +87,31 @@ Total rejected (in `rejected_records.jsonl`): **21**
 - **R2** — reason: test_artifact
 - **R3** — reason: test_artifact
 - **R4** — reason: test_artifact
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **15 Best Commercial HVAC Contractors New Orleans** — reason: aggregator_or_listicle
+- **** — reason: empty_name
+- **15 Best Commercial HVAC Contractors New Orleans** — reason: aggregator_or_listicle
+- **** — reason: empty_name
+- **15 Best Commercial HVAC Contractors New Orleans** — reason: aggregator_or_listicle
+- **"Dallas Medical Center** — reason: aggregator_or_listicle
+- **"Logistics & Warehouse Jobs In South Dallas, Texas"** — reason: aggregator_or_listicle
+- **"Commercial Property Manager jobs in Dallas, Tx"** — reason: aggregator_or_listicle
+- **"TOP 10 BEST Commercial Property Management Company ..."** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle

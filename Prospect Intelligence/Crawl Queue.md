@@ -3,7 +3,7 @@
 **Generated:** 2026-06-30T19:25:00.000Z
 **Schema version:** 1.1
 
-**Count:** 29
+**Count:** 32
 **Cap:** 25
 **Primary vertical:** hvac
 **Filter:** excluded needs_review and lead_gen_suspect
@@ -39,3 +39,6 @@
 | `bid_6a6d2eccef…` | Car A/C & Heating Repair | New Orleans | LA | — | — | enrichment |
 | `bid_15519bcad8…` | HVAC Experts | Baton Rouge | LA | — | — | enrichment |
 | `bid_e00c6f5ba8…` | Car A/C Repair | Baton Rouge | LA | — | — | enrichment |
+| `bid_c96de056fe…` | HVAC Jobs, Employment | New Orleans | LA | — | — | enrichment |
+| `bid_f48a47b8cb…` | Express Heating & Air Co | Baton Rouge | LA | — | — | enrichment |
+| `bid_8df83d3433…` | Gallo Mechanical | Baton Rouge | LA | — | — | enrichment |

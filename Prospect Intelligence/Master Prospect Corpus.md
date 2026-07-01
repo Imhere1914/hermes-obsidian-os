@@ -1,7 +1,7 @@
 # Master Prospect Corpus
 
 **Generated:** 2026-06-30T19:25:00.000Z
-**Total records:** 41
+**Total records:** 44
 
 View: one row per business in canonical repo, ordered by tier → score → city.
 
@@ -41,6 +41,8 @@ View: one row per business in canonical repo, ordered by tier → score → city
 | `bid_43a0beaa9f…` | Bitter Heating & Air Conditionin | Baton Rouge | LA | hvac | — | — | 2255002035 | https://www.bitterheatingandair. | needs_enrichment |
 | `bid_e00c6f5ba8…` | Car A/C Repair | Baton Rouge | LA | hvac | — | — | 2253682273 | http://www.oilchangebatonrouge.c | needs_enrichment |
 | `bid_a48a4da0e6…` | Central Heating & Air | Baton Rouge | LA | hvac | — | — | 2259932754 | http://www.cwhvac.com/ | needs_enrichment |
+| `bid_f48a47b8cb…` | Express Heating & Air Conditioni | Baton Rouge | LA | hvac | — | — | — | https://expressheatingairllc.com | needs_enrichment |
+| `bid_8df83d3433…` | Gallo Mechanical | Baton Rouge | LA | hvac | — | — | 8448777171 | https://gallomech.com/ | needs_enrichment |
 | `bid_15519bcad8…` | HVAC Experts | Baton Rouge | LA | hvac | — | — | 9857739776 | https://expertairac.com/?utm_sou | needs_enrichment |
 | `bid_fbcadaa55e…` | Tiger Air Conditioning | Baton Rouge | LA | hvac | — | — | 2257548687 | https://www.tiger-air.com/ | needs_enrichment |
 | `bid_24e3714139…` | AccuTemp | New Orleans | LA | hvac | — | — | 5044140862 | https://www.accutempbr.com/?utm_ | needs_enrichment |
@@ -48,3 +50,4 @@ View: one row per business in canonical repo, ordered by tier → score → city
 | `bid_6a6d2eccef…` | Car A/C & Heating Repair | New Orleans | LA | hvac | — | — | 5045132002 | http://shawnsautoandacrepair.com | needs_enrichment |
 | `bid_3f2c5d62af…` | Express Heating & Air Conditioni | New Orleans | LA | hvac | — | — | 5042630442 | https://www.expressheatandac.com | needs_enrichment |
 | `bid_31cfbd884b…` | Gallo Mechanical | New Orleans | LA | hvac | — | — | 5049446736 | http://gallomechanical.com/ | needs_enrichment |
+| `bid_c96de056fe…` | HVAC Jobs, Employment | New Orleans | LA | hvac | — | — | 5042948721 | https://www.stuartservices.com/? | needs_enrichment |

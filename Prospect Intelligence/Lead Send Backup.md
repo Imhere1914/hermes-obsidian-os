@@ -2,7 +2,7 @@
 
 **Generated:** 2026-06-30T19:25:00.000Z
 **Schema version:** 1.1 (Phase A v1.1 defect repair 2026-06-30 14:25 CT)
-**Total in repo:** 41  ·  **Rejected (separately):** 21
+**Total in repo:** 44  ·  **Rejected (separately):** 49
 
 > NO outreach is permitted from this list. Review-and-triage document.
 > Each section is a queue. Outreach requires explicit human approval
@@ -104,7 +104,7 @@
   -   - tier: B  ·  score: 0.55  ·  source: prospects_scored.jsonl
   -   - enrichment_status: incomplete
 
-## needs_enrichment (11)
+## needs_enrichment (14)
 
   - **Tiger Air Conditioning** — Baton Rouge, LA
   -   - phone: 2257548687  ·  website: https://www.tiger-air.com/
@@ -161,7 +161,22 @@
   -   - tier: —  ·  score: —  ·  source: prospects_enriched.jsonl
   -   - enrichment_status: pending
 
-## needs_crawl (29)
+  - **HVAC Jobs, Employment** — New Orleans, LA
+  -   - phone: 5042948721  ·  website: https://www.stuartservices.com/?utm_source=google&utm_medium=gbp-neworleans&se_campaign=GBP-New%20Orleans
+  -   - tier: —  ·  score: —  ·  source: prospects_enriched.jsonl
+  -   - enrichment_status: incomplete
+
+  - **Express Heating & Air Conditioning** — Baton Rouge, LA
+  -   - phone: —  ·  website: https://expressheatingairllc.com/
+  -   - tier: —  ·  score: —  ·  source: prospects_enriched.jsonl
+  -   - enrichment_status: incomplete
+
+  - **Gallo Mechanical** — Baton Rouge, LA
+  -   - phone: 8448777171  ·  website: https://gallomech.com/
+  -   - tier: —  ·  score: —  ·  source: prospects_enriched.jsonl
+  -   - enrichment_status: incomplete
+
+## needs_crawl (32)
 
   - **Help!! Air Conditioning and Heating** — New Orleans, LA
     - website: helpserviceco.com  ·  phone: http://www.helpserviceco.com/
@@ -279,6 +294,18 @@
     - website: firestonecompleteautocare.com  ·  phone: http://www.oilchangebatonrouge.com/
     - tier: —  ·  score: —  ·  purpose: enrichment
 
+  - **HVAC Jobs, Employment** — New Orleans, LA
+    - website: stuartservices.com  ·  phone: https://www.stuartservices.com/?utm_source=google&utm_medium=gbp-neworleans&se_campaign=GBP-New%20Orleans
+    - tier: —  ·  score: —  ·  purpose: enrichment
+
+  - **Express Heating & Air Conditioning** — Baton Rouge, LA
+    - website: expressheatingairllc.com  ·  phone: https://expressheatingairllc.com/
+    - tier: —  ·  score: —  ·  purpose: enrichment
+
+  - **Gallo Mechanical** — Baton Rouge, LA
+    - website: gallomech.com  ·  phone: https://gallomech.com/
+    - tier: —  ·  score: —  ·  purpose: enrichment
+
 ## needs_review (10)
 
   - **Which AC company do yall recommend?** — Baton Rouge, LA
@@ -343,9 +370,9 @@
   -   - tier: B  ·  score: 0.68  ·  source: prospects_scored.jsonl
   -   - enrichment_status: incomplete
 
-## rejected (21)
+## rejected (49)
 
-### reason: aggregator_or_listicle (6)
+### reason: aggregator_or_listicle (19)
 
 - **Dallas Medical Center**
 - **Logistics & Warehouse Jobs In South Dallas, Texas**
@@ -353,6 +380,37 @@
 - **TOP 10 BEST Commercial Property Management Company**
 - **15 Best Commercial HVAC Contractors New Orleans**
 - **15 Best Commercial HVAC Contractors New Orleans**
+- **15 Best Commercial HVAC Contractors New Orleans**
+- **15 Best Commercial HVAC Contractors New Orleans**
+- **15 Best Commercial HVAC Contractors New Orleans**
+- **"Dallas Medical Center**
+- **"Logistics & Warehouse Jobs In South Dallas, Texas"**
+- **"Commercial Property Manager jobs in Dallas, Tx"**
+- **"TOP 10 BEST Commercial Property Management Company ..."**
+- **TOP 10 BEST Commercial Property Management Company**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **Dallas Medical Center**
+- **Dallas Medical Center**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **TOP 10 BEST Commercial Property Management Company**
+
+### reason: empty_name (15)
+
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
 
 ### reason: test_artifact (15)
 

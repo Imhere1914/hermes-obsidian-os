@@ -9,12 +9,12 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Counts
 
-- Total records: **41**
+- Total records: **44**
 - Active: **18**
 - Needs review: **10**
-- Needs enrichment: **11**
+- Needs enrichment: **14**
 - Lead-gen suspect: **2**
-- Rejected (in `rejected_records.jsonl`): **21**
+- Rejected (in `rejected_records.jsonl`): **49**
 
 ## Invariants
 
@@ -27,11 +27,11 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Provenance
 
-- Source files seen: **8**
-- Records with phone: **37**
+- Source files seen: **14**
+- Records with phone: **39**
 - Records with email: **7**
-- Records with website: **41**
-- Records with place_id: **17**
+- Records with website: **44**
+- Records with place_id: **20**
 
 ## Phase A Defect Repair
 
