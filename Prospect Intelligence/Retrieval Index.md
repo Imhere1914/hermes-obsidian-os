@@ -1,10 +1,10 @@
 # Retrieval Index
 
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 
 Dedupe key tables. Look up a candidate before adding a new record.
 
-## place_id index (20 entries)
+## place_id index (23 entries)
 
 | place_id | business_id |
 |----------|-------------|
@@ -18,9 +18,12 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `ChIJB-moX-y6IIYR2db_em1weD4` | `bid_24e3714139…` |
 | `ChIJCXmDuR6wIIYRJUEK_Q4RJbE` | `bid_b3f54244c1…` |
 | `ChIJD9J4hpC7JoYRRcZJ6zpO2tA` | `bid_fbcadaa55e…` |
+| `ChIJU9q1zBkRTIYRu0GnL6d7Hj0` | `bid_944e56bdd5…` |
 | `ChIJaQPJlp-mIIYR8VeWreib2Xw` | `bid_3f2c5d62af…` |
 | `ChIJd60Ap5GwIIYRDic_SarFt_g` | `bid_75c3d26939…` |
+| `ChIJd6GdUyGdToYRMGJ0Wv7WgNM` | `bid_e294f65485…` |
 | `ChIJe9CbeGS6IIYRMyPcbuCj9zE` | `bid_6e16baf7bc…` |
+| `ChIJf8GWGJ8tTIYRCudZq3MFf2I` | `bid_112a1a1ddc…` |
 | `ChIJg7YRe3avIIYR99uXjsMN2QU` | `bid_fba78ded57…` |
 | `ChIJiVvTRLilIIYRWSd3XO14yoU` | `bid_c96de056fe…` |
 | `ChIJkVcxQJRcJ4YRU-ZFl3fT8SM` | `bid_15519bcad8…` |
@@ -29,7 +32,7 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `ChIJx0phpT-lJoYRxrAwP41Xzew` | `bid_ccbec3b03b…` |
 | `ChIJxcQOCbASi0sRVbDm-WLca44` | `bid_f48a47b8cb…` |
 
-## phone_digits index (last-10) (39 entries)
+## phone_digits index (last-10) (41 entries)
 
 | phone (last 10) | business_id |
 |-----------------|-------------|
@@ -40,7 +43,9 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `2143801846` | `bid_0695aa13e1…` |
 | `2144422872` | `bid_39df4ae229…` |
 | `2146483111` | `bid_a77a6c39f7…` |
+| `2146921100` | `bid_fd64984b96…` |
 | `2147428387` | `bid_a5c5dced68…` |
+| `2149043030` | `bid_ff6a52a6d3…` |
 | `2253512657` | `bid_e9e8b3ab1a…` |
 | `2253517874` | `bid_ccbec3b03b…` |
 | `2253682273` | `bid_e00c6f5ba8…` |
@@ -73,7 +78,7 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `9729602800` | `bid_261a9849b4…` |
 | `9857739776` | `bid_15519bcad8…` |
 
-## domain index (44 entries)
+## domain index (45 entries)
 
 | domain | business_id |
 |--------|-------------|
@@ -89,6 +94,7 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `clutch.co` | `bid_70d89b6af4…` |
 | `coolbr.com` | `bid_e9e8b3ab1a…` |
 | `coolkingsheatingandair.com` | `bid_15519bcad8…` |
+| `cushmanwakefield.com` | `bid_fd64984b96…` |
 | `dallasmedcenter.com` | `bid_a36456e783…` |
 | `dfwdistribution.com` | `bid_5ad685a422…` |
 | `expressheatandac.com` | `bid_3f2c5d62af…` |
@@ -122,7 +128,7 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | `wsinc.com` | `bid_1fdeef864e…` |
 | `yelp.com` | `bid_4944de0b42…` |
 
-## name_city_state index (44 entries)
+## name_city_state index (48 entries)
 
 (Used only when place_id, phone, and domain are all absent.)
 
@@ -131,14 +137,18 @@ Dedupe key tables. Look up a candidate before adding a new record.
 | a&a mechanical, llc | new orleans | la | `bid_b3944312ee…` |
 | accutemp | new orleans | la | `bid_24e3714139…` |
 | air one heating and air condit | new orleans | la | `bid_75c3d26939…` |
+| augerpros plumbing and drain | allen | tx | `bid_944e56bdd5…` |
 | baton rouge air conditioning & | baton rouge | la | `bid_e9e8b3ab1a…` |
 | baton rouge hvac services | baton rouge | la | `bid_b3831eb779…` |
+| berrett hvac & plumbing | dallas | tx | `bid_e294f65485…` |
 | bitter heating & air condition | baton rouge | la | `bid_43a0beaa9f…` |
 | bradford | dallas | tx | `bid_e04e9f0389…` |
 | car a/c & heating repair | new orleans | la | `bid_6a6d2eccef…` |
 | car a/c repair | baton rouge | la | `bid_e00c6f5ba8…` |
 | central heating & air | baton rouge | la | `bid_a48a4da0e6…` |
+| cold factor heating & air serv | flower mound | tx | `bid_112a1a1ddc…` |
 | commercial property manager jo | dallas | tx | `bid_70d7e20de6…` |
+| commercial real estate | dallas | tx | `bid_fd64984b96…` |
 | contact us for warehousing & d | dallas | tx | `bid_5ad685a422…` |
 | contact us | dallas | tx | `bid_7f221c3741…` |
 | dallas commercial real estate  | dallas | tx | `bid_0695aa13e1…` |

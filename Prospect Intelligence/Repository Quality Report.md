@@ -1,19 +1,19 @@
 # Repository Quality Report
 
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 
-Total canonical: **44**
+Total canonical: **48**
 
 ## Missing signals
 
 | signal | missing |
 |--------|--------:|
-| phone | 5 |
-| email | 37 |
-| website | 0 |
+| phone | 7 |
+| email | 41 |
+| website | 3 |
 | source | 0 |
-| place_id | 24 |
-| enrichment_status=incomplete | 33 |
+| place_id | 25 |
+| enrichment_status=incomplete | 37 |
 
 ## By canonical_status
 
@@ -22,7 +22,7 @@ Total canonical: **44**
 | active | 18 |
 | incomplete | 0 |
 | lead_gen_suspect | 2 |
-| needs_enrichment | 14 |
+| needs_enrichment | 18 |
 | needs_review | 10 |
 | rejected | 0 |
 
@@ -30,7 +30,7 @@ Total canonical: **44**
 
 | status | count |
 |--------|------:|
-| incomplete | 33 |
+| incomplete | 37 |
 | pending | 11 |
 
 ## By vertical
@@ -39,8 +39,9 @@ Total canonical: **44**
 |----------|------:|
 | hvac | 20 |
 | warehouse | 7 |
-| property_management | 6 |
+| property_management | 7 |
 | medical | 5 |
+| unknown | 3 |
 | commercial_real_estate | 2 |
 | restaurant | 2 |
 | dental_office | 1 |
@@ -50,17 +51,17 @@ Total canonical: **44**
 
 | region | count |
 |--------|------:|
-| Gulf_South | 44 |
+| Gulf_South | 48 |
 
 ## Rejected records
 
-Total rejected (in `rejected_records.jsonl`): **49**
+Total rejected (in `rejected_records.jsonl`): **65**
 
 ### By rejection_reason
 
 | reason | count |
 |--------|------:|
-| aggregator_or_listicle | 19 |
+| aggregator_or_listicle | 35 |
 | test_artifact | 15 |
 | empty_name | 15 |
 
@@ -112,6 +113,22 @@ Total rejected (in `rejected_records.jsonl`): **49**
 - **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
 - **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
 - **Dallas Medical Center** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
+- **"Dallas Medical Center** — reason: aggregator_or_listicle
+- **"Logistics & Warehouse Jobs In South Dallas, Texas"** — reason: aggregator_or_listicle
+- **"Commercial Property Manager jobs in Dallas, Tx"** — reason: aggregator_or_listicle
+- **"TOP 10 BEST Commercial Property Management Company ..."** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
+- **Dallas Medical Center** — reason: aggregator_or_listicle
+- **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
 - **Dallas Medical Center** — reason: aggregator_or_listicle
 - **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
 - **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle

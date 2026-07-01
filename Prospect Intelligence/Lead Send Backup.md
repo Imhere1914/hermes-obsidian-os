@@ -1,8 +1,8 @@
 # Lead Send Backup
 
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 **Schema version:** 1.1 (Phase A v1.1 defect repair 2026-06-30 14:25 CT)
-**Total in repo:** 44  ·  **Rejected (separately):** 49
+**Total in repo:** 48  ·  **Rejected (separately):** 65
 
 > NO outreach is permitted from this list. Review-and-triage document.
 > Each section is a queue. Outreach requires explicit human approval
@@ -31,80 +31,80 @@
 
   - **Dallas Fulfillment Center** — Dallas, TX
   -   - phone: 9728337279  ·  website: https://warehouse-pro.com
-  -   - tier: A  ·  score: 0.8  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.8  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas commercial real estate advisors** — Dallas, TX
   -   - phone: 2143801846  ·  website: https://avisonyoung.us
-  -   - tier: A  ·  score: 0.78  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.78  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas Warehousing and Freight Distribution Services** — Dallas, TX
   -   - phone: 8773393530  ·  website: https://averitt.com
-  -   - tier: A  ·  score: 0.75  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.75  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **The Warehouse Dallas** — Dallas, TX
   -   - phone: 2144422872  ·  website: https://thewarehousedallas.org
-  -   - tier: A  ·  score: 0.73  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.73  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **UT Southwestern Medical Center** — Dallas, TX
   -   - phone: 2146483111  ·  website: https://utswmed.org
-  -   - tier: A  ·  score: 0.72  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.72  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Parkland Health** — Dallas, TX
   -   - phone: 2142668777  ·  website: https://parklandhealth.org
-  -   - tier: A  ·  score: 0.72  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.72  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **TXRE Properties** — Dallas, TX
   -   - phone: 1526514742  ·  website: https://txreproperties.com
-  -   - tier: B  ·  score: 0.71  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.71  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas, TX Warehouse & Distribution Center** — Dallas, TX
   -   - phone: 1782495365  ·  website: https://wsinc.com
-  -   - tier: B  ·  score: 0.71  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.71  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas VA Medical Center** — Dallas, TX
   -   - phone: 2147428387  ·  website: https://va.gov
-  -   - tier: B  ·  score: 0.7  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.7  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **DFW Commercial Property Management** — Dallas, TX
   -   - phone: 9727767000  ·  website: https://linc.realty
-  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Texas Commercial Real Estate Property Management** — Dallas, TX
   -   - phone: 9729602800  ·  website: https://sbbmanagement.com
-  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Metroplex Medical Centres** — Dallas, TX
   -   - phone: 4692895438  ·  website: https://metroplexmedicalcentres.com
-  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **North Dallas Warehouse Equipment Overview, Address & Contact** — Dallas, TX
   -   - phone: 9722419177  ·  website: https://prospeo.io
-  -   - tier: B  ·  score: 0.68  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.68  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Property Management** — Dallas, TX
   -   - phone: 9547537966  ·  website: https://henrysmiller.com
-  -   - tier: B  ·  score: 0.66  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.66  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Bradford** — Dallas, TX
   -   - phone: 6104365108  ·  website: https://bradford.com
-  -   - tier: B  ·  score: 0.55  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.55  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
-## needs_enrichment (14)
+## needs_enrichment (18)
 
   - **Tiger Air Conditioning** — Baton Rouge, LA
   -   - phone: 2257548687  ·  website: https://www.tiger-air.com/
@@ -176,7 +176,27 @@
   -   - tier: —  ·  score: —  ·  source: prospects_enriched.jsonl
   -   - enrichment_status: incomplete
 
-## needs_crawl (32)
+  - **Commercial Real Estate** — Dallas, TX
+  -   - phone: 2146921100  ·  website: https://cushmanwakefield.com
+  -   - tier: —  ·  score: —  ·  source: prospects_scored-2026-06-29T05-55-20-785Z.jsonl
+  -   - enrichment_status: incomplete
+
+  - **Berrett HVAC & Plumbing** — Dallas, TX
+  -   - phone: —  ·  website: —
+  -   - tier: —  ·  score: —  ·  source: pilot-report-2026-06-10T18-57-19-980Z.json
+  -   - enrichment_status: incomplete
+
+  - **Cold Factor Heating & Air Services** — Flower Mound, TX
+  -   - phone: —  ·  website: —
+  -   - tier: —  ·  score: —  ·  source: pilot-report-2026-06-10T18-57-19-980Z.json
+  -   - enrichment_status: incomplete
+
+  - **Augerpros Plumbing and Drain** — Allen, TX
+  -   - phone: —  ·  website: —
+  -   - tier: —  ·  score: —  ·  source: pilot-report-2026-06-10T18-57-19-980Z.json
+  -   - enrichment_status: incomplete
+
+## needs_crawl (33)
 
   - **Help!! Air Conditioning and Heating** — New Orleans, LA
     - website: helpserviceco.com  ·  phone: http://www.helpserviceco.com/
@@ -306,6 +326,10 @@
     - website: gallomech.com  ·  phone: https://gallomech.com/
     - tier: —  ·  score: —  ·  purpose: enrichment
 
+  - **Commercial Real Estate** — Dallas, TX
+    - website: cushmanwakefield.com  ·  phone: https://cushmanwakefield.com
+    - tier: —  ·  score: —  ·  purpose: enrichment
+
 ## needs_review (10)
 
   - **Which AC company do yall recommend?** — Baton Rouge, LA
@@ -315,7 +339,7 @@
 
   - **Locations** — Dallas, TX
   -   - phone: 8015248200  ·  website: https://hhmhealth.org
-  -   - tier: A  ·  score: 0.74  ·  source: prospects_scored.jsonl
+  -   - tier: A  ·  score: 0.74  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas Medical Center** — Dallas, TX
@@ -330,27 +354,27 @@
 
   - **Contact Us for Warehousing & Distribution** — Dallas, TX
   -   - phone: 2143214111  ·  website: https://dfwdistribution.com
-  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.69  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Commercial Property Manager jobs** — Dallas, TX
   -   - phone: —  ·  website: https://indeed.com
-  -   - tier: B  ·  score: 0.62  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.62  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Top Commercial Property Management Companies** — Dallas, TX
   -   - phone: —  ·  website: https://clutch.co
-  -   - tier: B  ·  score: 0.6  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.6  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Contact Us** — Dallas, TX
   -   - phone: 8009378997  ·  website: https://medicalcityhealthcare.com
-  -   - tier: B  ·  score: 0.6  ·  source: prospects_scored.jsonl
+  -   - tier: B  ·  score: 0.6  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **Dallas** — Dallas, TX
-  -   - phone: —  ·  website: https://themdpmgroup.com
-  -   - tier: C  ·  score: 0.49  ·  source: prospects_scored.jsonl
+  -   - phone: 2149043030  ·  website: https://themdpmgroup.com
+  -   - tier: C  ·  score: 0.49  ·  source: prospects_scored-2026-06-29T05-58-35-582Z.jsonl
   -   - enrichment_status: incomplete
 
   - **TOP 10 BEST Commercial Property Management Company** — Dallas, TX
@@ -370,9 +394,9 @@
   -   - tier: B  ·  score: 0.68  ·  source: prospects_scored.jsonl
   -   - enrichment_status: incomplete
 
-## rejected (49)
+## rejected (65)
 
-### reason: aggregator_or_listicle (19)
+### reason: aggregator_or_listicle (35)
 
 - **Dallas Medical Center**
 - **Logistics & Warehouse Jobs In South Dallas, Texas**
@@ -390,6 +414,22 @@
 - **TOP 10 BEST Commercial Property Management Company**
 - **Logistics & Warehouse Jobs In South Dallas**
 - **Dallas Medical Center**
+- **Dallas Medical Center**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **TOP 10 BEST Commercial Property Management Company**
+- **"Dallas Medical Center**
+- **"Logistics & Warehouse Jobs In South Dallas, Texas"**
+- **"Commercial Property Manager jobs in Dallas, Tx"**
+- **"TOP 10 BEST Commercial Property Management Company ..."**
+- **TOP 10 BEST Commercial Property Management Company**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **Dallas Medical Center**
+- **TOP 10 BEST Commercial Property Management Company**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **Dallas Medical Center**
+- **Logistics & Warehouse Jobs In South Dallas**
+- **Dallas Medical Center**
+- **TOP 10 BEST Commercial Property Management Company**
 - **Dallas Medical Center**
 - **Logistics & Warehouse Jobs In South Dallas**
 - **TOP 10 BEST Commercial Property Management Company**

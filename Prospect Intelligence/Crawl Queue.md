@@ -1,9 +1,9 @@
 # Crawl Queue
 
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 **Schema version:** 1.1
 
-**Count:** 32
+**Count:** 33
 **Cap:** 25
 **Primary vertical:** hvac
 **Filter:** excluded needs_review and lead_gen_suspect
@@ -42,3 +42,4 @@
 | `bid_c96de056fe…` | HVAC Jobs, Employment | New Orleans | LA | — | — | enrichment |
 | `bid_f48a47b8cb…` | Express Heating & Air Co | Baton Rouge | LA | — | — | enrichment |
 | `bid_8df83d3433…` | Gallo Mechanical | Baton Rouge | LA | — | — | enrichment |
+| `bid_fd64984b96…` | Commercial Real Estate | Dallas | TX | — | — | enrichment |

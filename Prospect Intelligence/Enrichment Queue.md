@@ -1,9 +1,9 @@
 # Enrichment Queue
 
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 **Schema version:** 1.1
 
-**Count:** 32
+**Count:** 36
 **Filter:** excluded needs_review and lead_gen_suspect; only enrichment_status in {incomplete, pending}
 
 | business_id | name | vertical | city | state | enrichment_status | missing | priority |
@@ -40,3 +40,7 @@
 | `bid_c96de056fe…` | HVAC Jobs, Employment | hvac | New Orleans | LA | incomplete | missing_emails, missing_owner, missing_decision_ | missing 8 signal fields |
 | `bid_f48a47b8cb…` | Express Heating & Air Co | hvac | Baton Rouge | LA | incomplete | missing_phones, missing_emails, missing_owner, m | missing 9 signal fields |
 | `bid_8df83d3433…` | Gallo Mechanical | hvac | Baton Rouge | LA | incomplete | missing_emails, missing_owner, missing_decision_ | missing 8 signal fields |
+| `bid_fd64984b96…` | Commercial Real Estate | property_management | Dallas | TX | incomplete | missing_emails, missing_owner, missing_decision_ | missing 7 signal fields |
+| `bid_e294f65485…` | Berrett HVAC & Plumbing | unknown | Dallas | TX | incomplete | missing_phones, missing_emails, missing_owner, m | missing 9 signal fields |
+| `bid_112a1a1ddc…` | Cold Factor Heating & Ai | unknown | Flower Mound | TX | incomplete | missing_phones, missing_emails, missing_owner, m | missing 9 signal fields |
+| `bid_944e56bdd5…` | Augerpros Plumbing and D | unknown | Allen | TX | incomplete | missing_phones, missing_emails, missing_owner, m | missing 9 signal fields |

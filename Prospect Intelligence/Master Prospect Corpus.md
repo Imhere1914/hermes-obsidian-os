@@ -1,7 +1,7 @@
 # Master Prospect Corpus
 
-**Generated:** 2026-06-30T19:25:00.000Z
-**Total records:** 44
+**Generated:** 2026-07-01T07:27:55.960Z
+**Total records:** 48
 
 View: one row per business in canonical repo, ordered by tier → score → city.
 
@@ -35,8 +35,9 @@ View: one row per business in canonical repo, ordered by tier → score → city
 | `bid_6e16baf7bc…` | Help!! Air Conditioning and Heat | New Orleans | LA | hvac | B | 0.58 | 5047335888 | http://www.helpserviceco.com/ | active |
 | `bid_e04e9f0389…` | Bradford | Dallas | TX | restaurant | B | 0.55 | 6104365108 | https://bradford.com | active |
 | `bid_b3944312ee…` | A&a Mechanical, Llc | New Orleans | LA | hvac | C | 0.51 | 5042712227 | http://www.aandamechanical.com/ | active |
-| `bid_ff6a52a6d3…` | Dallas | Dallas | TX | restaurant | C | 0.49 | — | https://themdpmgroup.com | needs_review |
+| `bid_ff6a52a6d3…` | Dallas | Dallas | TX | restaurant | C | 0.49 | 2149043030 | https://themdpmgroup.com | needs_review |
 | `bid_4944de0b42…` | TOP 10 BEST Commercial Property  | Dallas | TX | property_management | D | — | — | https://yelp.com | needs_review |
+| `bid_944e56bdd5…` | Augerpros Plumbing and Drain | Allen | TX | unknown | — | — | — | — | needs_enrichment |
 | `bid_e9e8b3ab1a…` | Baton Rouge Air Conditioning & H | Baton Rouge | LA | hvac | — | — | 2253512657 | https://www.coolbr.com/?utm_sour | needs_enrichment |
 | `bid_43a0beaa9f…` | Bitter Heating & Air Conditionin | Baton Rouge | LA | hvac | — | — | 2255002035 | https://www.bitterheatingandair. | needs_enrichment |
 | `bid_e00c6f5ba8…` | Car A/C Repair | Baton Rouge | LA | hvac | — | — | 2253682273 | http://www.oilchangebatonrouge.c | needs_enrichment |
@@ -45,6 +46,9 @@ View: one row per business in canonical repo, ordered by tier → score → city
 | `bid_8df83d3433…` | Gallo Mechanical | Baton Rouge | LA | hvac | — | — | 8448777171 | https://gallomech.com/ | needs_enrichment |
 | `bid_15519bcad8…` | HVAC Experts | Baton Rouge | LA | hvac | — | — | 9857739776 | https://expertairac.com/?utm_sou | needs_enrichment |
 | `bid_fbcadaa55e…` | Tiger Air Conditioning | Baton Rouge | LA | hvac | — | — | 2257548687 | https://www.tiger-air.com/ | needs_enrichment |
+| `bid_e294f65485…` | Berrett HVAC & Plumbing | Dallas | TX | unknown | — | — | — | — | needs_enrichment |
+| `bid_fd64984b96…` | Commercial Real Estate | Dallas | TX | property_management | — | — | 2146921100 | https://cushmanwakefield.com | needs_enrichment |
+| `bid_112a1a1ddc…` | Cold Factor Heating & Air Servic | Flower Mound | TX | unknown | — | — | — | — | needs_enrichment |
 | `bid_24e3714139…` | AccuTemp | New Orleans | LA | hvac | — | — | 5044140862 | https://www.accutempbr.com/?utm_ | needs_enrichment |
 | `bid_75c3d26939…` | Air One Heating and Air Conditio | New Orleans | LA | hvac | — | — | 5048886702 | http://aironeheatingandcooling.c | needs_enrichment |
 | `bid_6a6d2eccef…` | Car A/C & Heating Repair | New Orleans | LA | hvac | — | — | 5045132002 | http://shawnsautoandacrepair.com | needs_enrichment |

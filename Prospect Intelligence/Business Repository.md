@@ -1,7 +1,7 @@
 # Business Repository
 
 **Schema version:** 1.1 (canonical JSONL)
-**Generated:** 2026-06-30T19:25:00.000Z
+**Generated:** 2026-07-01T07:27:55.960Z
 **Maintained by:** SC Intelligence
 
 Canonical record store at `data/business_repository/business_repository.jsonl`.
@@ -9,12 +9,12 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Counts
 
-- Total records: **44**
+- Total records: **48**
 - Active: **18**
 - Needs review: **10**
-- Needs enrichment: **14**
+- Needs enrichment: **18**
 - Lead-gen suspect: **2**
-- Rejected (in `rejected_records.jsonl`): **49**
+- Rejected (in `rejected_records.jsonl`): **65**
 
 ## Invariants
 
@@ -27,11 +27,11 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Provenance
 
-- Source files seen: **14**
-- Records with phone: **39**
+- Source files seen: **29**
+- Records with phone: **41**
 - Records with email: **7**
-- Records with website: **44**
-- Records with place_id: **20**
+- Records with website: **45**
+- Records with place_id: **23**
 
 ## Phase A Defect Repair
 
