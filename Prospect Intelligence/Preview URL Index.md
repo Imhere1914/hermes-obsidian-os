@@ -1,9 +1,32 @@
 # Preview URL Index
 
-_Generated: 2026-07-02T07:08:23.257852+00:00_
+_Generated: 2026-07-02T16:44:59.642960+00:00_
 
 - preview URLs: 1190
 - URL pattern: `https://preview.simpleconnect.ai/mockups/<preview_slug>`
+
+## Preview renderer status
+
+- compiled payload count: 19 (in-scope templates only — 3-template scope)
+- active payload count: 19
+- expired fixture: 1 (`arlington-ac-heating-4f72e8-expired`) — renders the neutral
+  "This preview has expired." page; no business data leaked
+- sparse fixture: 1 (`plano-hvac-cooling-service-3b6a0d-sparse`) — phone, service
+  area, services, trade, hours all null; renders without crashing
+- Arlington AC acceptance slug: `arlington-ac-heating-4f72e8`
+  - business_id: `bid_4f72e8f662f7deceacc4ee94`
+  - template: `hvac_phone_first_v1`
+  - phone: `8175575000`
+  - service_area: `Arlington, TX`
+  - VOM demo number: `null` (uses business phone)
+- templates implemented: `hvac_phone_first_v1`, `contractor_quote_v1`, `generic_local_service_v1`
+- preview renderer route: `/b2b-prospector/mockups/<previewSlug>` (Vite preview: `http://127.0.0.1:4173/b2b-prospector/mockups/<slug>`)
+- noindex policy: every render sets `<meta name="robots" content="noindex">`
+- tap-to-call behavior: `tel:<digits>` resolving `vom_demo_number` if set, else `payload.phone`
+- VOM demo number field: present in payload schema; null on all current fixtures
+- no outreach performed: 0 sends, 0 SMS drafts, 0 emails, 0 DMs
+- page-view counter: `data/lead_finder/preview_page_views.jsonl` (one line per render)
+- evidence bundle: `/tmp/lead_finder_mockup_evidence/`
 
 | business_id | preview_slug | template | score | band | preview_url |
 | --- | --- | --- | --- | --- | --- |
