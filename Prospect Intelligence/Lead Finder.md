@@ -1,6 +1,6 @@
 # Lead Finder
 
-_Generated: 2026-07-02T19:23:31.784572+00:00_
+_Generated: 2026-07-02T19:40:22.147737+00:00_
 
 ## Source strategy
 
