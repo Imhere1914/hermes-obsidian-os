@@ -1,11 +1,11 @@
 # Serper Leads
 
-_Generated: 2026-07-02T19:40:22.169723+00:00_
+_Generated: 2026-07-02T21:10:11.230788+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `serper`
 .
 
-- records: **1698** of 1752 canonical
+- records: **1698** of 1780 canonical
 
 | business_name | vertical | city | state | score | mockup_priority | pack | readiness | next_action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

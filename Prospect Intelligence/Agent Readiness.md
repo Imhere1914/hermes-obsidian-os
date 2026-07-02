@@ -1,6 +1,6 @@
 # Agent Readiness
 
-_Generated: 2026-07-02T19:40:22.174969+00:00_
+_Generated: 2026-07-02T21:10:11.236429+00:00_
 
 ## Pipeline state
 
@@ -12,8 +12,8 @@ _Generated: 2026-07-02T19:40:22.174969+00:00_
 
 - candidates processed: 0
 - newly created: 0
-- scores: 1752
-- pitch packs: 1204
+- scores: 1780
+- pitch packs: 1228
 
 ## Compliance gates
 
