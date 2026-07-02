@@ -1,6 +1,6 @@
 # Lead Source Coverage
 
-_Generated: 2026-07-02T21:10:11.201618+00:00_
+_Generated: 2026-07-02T21:38:51.405234+00:00_
 
 Lead Finder is the **umbrella layer** that joins the canonical
 business repository with every lead_finder artifact (scores,
@@ -23,7 +23,7 @@ is workflow.
 | discovery_source | records_with_this_source |
 | --- | --- |
 | serper | 1698 |
-| google_places | 57 |
+| google_places | 251 |
 | web_scrape | 48 |
 
 ## Primary discovery source distribution
@@ -31,12 +31,12 @@ is workflow.
 | primary_discovery_source_type | records |
 | --- | --- |
 | serper | 1690 |
-| google_places | 57 |
+| google_places | 251 |
 | web_scrape | 33 |
 
 ## Mixed discovery
 
-- mixed_discovery (>= 2 discovery sources): **17** of 1780 records
+- mixed_discovery (>= 2 discovery sources): **17** of 1974 records
 
 > A record is mixed_discovery only if it was originally discovered
 > by more than one source. Workflow and enrichment steps do NOT
@@ -46,8 +46,8 @@ is workflow.
 
 | enrichment_source | records_with_this_source |
 | --- | --- |
-| website_crawl | 586 |
-| social_handle_extraction | 415 |
+| website_crawl | 780 |
+| social_handle_extraction | 474 |
 
 ## Workflow source counts
 
@@ -68,8 +68,8 @@ phase_e_la, pilot_output). The numbers above reflect that.
 
 | conversation_readiness_status | count |
 | --- | --- |
-| needs_enrichment | 1003 |
-| not_ready | 759 |
+| needs_enrichment | 1189 |
+| not_ready | 767 |
 | needs_crawl | 11 |
 | ready_for_review | 5 |
 | no_ci_data | 2 |
@@ -78,14 +78,14 @@ phase_e_la, pilot_output). The numbers above reflect that.
 
 | field | count | pct |
 | --- | --- | --- |
-| with website | 1261 | 70.8% |
-| with phone | 1735 | 97.5% |
-| with email | 603 | 33.9% |
-| with business social | 414 | 23.3% |
-| with website_opportunity_score | 1780 | 100.0% |
-| with mockup recommendation | 1228 | 69.0% |
-| with preview_url | 1228 | 69.0% |
-| with pitch_pack_available | 1228 | 69.0% |
+| with website | 1447 | 73.3% |
+| with phone | 1928 | 97.7% |
+| with email | 676 | 34.2% |
+| with business social | 473 | 24.0% |
+| with website_opportunity_score | 1974 | 100.0% |
+| with mockup recommendation | 1359 | 68.8% |
+| with preview_url | 1359 | 68.8% |
+| with pitch_pack_available | 1359 | 68.8% |
 
 ## Validation
 

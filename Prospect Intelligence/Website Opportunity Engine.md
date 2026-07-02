@@ -1,6 +1,6 @@
 # Website Opportunity Engine
 
-_Generated: 2026-07-02T21:10:11.232630+00:00_
+_Generated: 2026-07-02T21:38:51.466767+00:00_
 
 Detects website pain points from the canonical row and scores them 0-100.
 Pain points are NEVER invented: only those supported by data fields are emitted.
@@ -13,22 +13,22 @@ Pain points are NEVER invented: only those supported by data fields are emitted.
 
 ## Engine counts
 
-- audits written: 1780
-- scores written: 1780
+- audits written: 1974
+- scores written: 1974
 
 ## Pain point frequency
 
 | pain_point | count |
 | --- | --- |
 | no_service_pages_detected | 1070 |
-| no_chat_widget | 964 |
-| no_business_social_links | 812 |
-| no_booking_button | 747 |
-| no_commercial_service_language | 735 |
-| thin_content | 597 |
-| no_website | 519 |
-| no_clear_cta | 477 |
-| no_trust_signals | 62 |
+| no_chat_widget | 1052 |
+| no_business_social_links | 939 |
+| no_booking_button | 829 |
+| no_commercial_service_language | 796 |
+| thin_content | 637 |
+| no_clear_cta | 590 |
+| no_website | 527 |
+| no_trust_signals | 96 |
 | parked_domain | 8 |
 | facebook_only | 4 |
 
