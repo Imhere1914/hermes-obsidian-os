@@ -1,6 +1,6 @@
 # High Score Website Prospects
 
-_Generated: 2026-07-02T06:02:57.979044+00:00_
+_Generated: 2026-07-02T06:20:22.971413+00:00_
 
 Top 50 prospects by website opportunity score (urgent_opportunity and good_opportunity bands).
 

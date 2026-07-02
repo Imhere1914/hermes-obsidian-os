@@ -1,6 +1,6 @@
 # Website Opportunity Engine
 
-_Generated: 2026-07-02T06:02:57.976096+00:00_
+_Generated: 2026-07-02T06:20:22.968641+00:00_
 
 Detects website pain points from the canonical row and scores them 0-100.
 Pain points are NEVER invented: only those supported by data fields are emitted.

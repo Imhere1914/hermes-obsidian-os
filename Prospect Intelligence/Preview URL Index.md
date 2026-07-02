@@ -1,6 +1,6 @@
 # Preview URL Index
 
-_Generated: 2026-07-02T06:02:57.979717+00:00_
+_Generated: 2026-07-02T06:20:22.972063+00:00_
 
 - preview URLs: 1185
 - URL pattern: `https://preview.simpleconnect.ai/mockups/<preview_slug>`

@@ -1,35 +1,68 @@
 # Lead Source Coverage
 
-_Generated: 2026-07-02T06:02:57.948429+00:00_
+_Generated: 2026-07-02T06:20:22.937930+00:00_
 
 Lead Finder is the **umbrella layer** that joins the canonical
 business repository with every lead_finder artifact (scores,
 audits, mockups, previews, packs, social index). This view
 answers: where did each lead come from, and how is it covered?
 
-## Source counts (membership across acquisition_runs)
+## The three categories (Part 2 taxonomy)
 
-| source_type | records_with_this_source |
+- **discovery_source_types** = sources that originally acquired the business
+- **enrichment_source_types** = sources that enriched an already-known business
+- **workflow_source_types** = internal pipeline stages that touched the record
+
+A stage that merely re-imports or enriches a record CANNOT claim
+to have discovered it. `social_prospecting_desk` is workflow,
+not discovery. `canonical_repository` is workflow. `lead_finder`
+is workflow.
+
+## Discovery source counts (membership across acquisition_runs)
+
+| discovery_source | records_with_this_source |
 | --- | --- |
-| google_places | 1731 |
-| manual_import | 1731 |
-| web_scrape | 1731 |
-| historical_recovery | 1729 |
-| serper | 1701 |
+| serper | 1698 |
+| web_scrape | 48 |
+| google_places | 8 |
+
+## Primary discovery source distribution
+
+| primary_discovery_source_type | records |
+| --- | --- |
+| serper | 1690 |
+| web_scrape | 33 |
+| google_places | 8 |
+
+## Mixed discovery
+
+- mixed_discovery (>= 2 discovery sources): **17** of 1731 records
+
+> A record is mixed_discovery only if it was originally discovered
+> by more than one source. Workflow and enrichment steps do NOT
+> make a record mixed_discovery.
+
+## Enrichment source counts
+
+| enrichment_source | records_with_this_source |
+| --- | --- |
 | website_crawl | 537 |
 | social_handle_extraction | 396 |
 
-## Source counts (primary_source_type)
+## Workflow source counts
 
-| primary_source_type | records |
+| workflow_source | records_with_this_source |
 | --- | --- |
-| serper | 1692 |
-| web_scrape | 36 |
-| google_places | 3 |
+| social_prospecting_desk | 1731 |
 
-## Mixed provenance
+## Why enrichment != discovery
 
-- mixed_provenance (>= 2 source types): **1731** of 1731 records
+Every canonical record gets touched by the social-prospecting-desk
+offline re-import (workflow) and most get a website_crawl pass
+(enrichment). That does NOT mean 1,731/1,731 records were
+discovered by those sources. Discovery attribution requires an
+original acquisition artifact (prospects_raw.jsonl, phase_d_places,
+phase_e_la, pilot_output). The numbers above reflect that.
 
 ## Coverage by readiness / artifact
 
@@ -58,4 +91,5 @@ answers: where did each lead come from, and how is it covered?
 
 - overall: **PASS**
 - failing: 0
-- informational: 10
+- informational: 13
+- checks_run: 42

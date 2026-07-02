@@ -1,6 +1,6 @@
 # Lead Finder
 
-_Generated: 2026-07-02T06:02:57.953312+00:00_
+_Generated: 2026-07-02T06:20:22.945273+00:00_
 
 ## Source strategy
 
@@ -59,7 +59,7 @@ _Generated: 2026-07-02T06:02:57.953312+00:00_
 
 - overall: **PASS**
 - failing_issues: 0
-- informational_issues: 10
+- informational_issues: 13
 
 ## Next recommended move
 
