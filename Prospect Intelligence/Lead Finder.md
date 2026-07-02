@@ -1,6 +1,6 @@
 # Lead Finder
 
-_Generated: 2026-07-02T06:46:30.748452+00:00_
+_Generated: 2026-07-02T07:08:23.232252+00:00_
 
 ## Source strategy
 
@@ -43,7 +43,7 @@ _Generated: 2026-07-02T06:46:30.748452+00:00_
 - mockup recommendations: 1190
 - preview URLs: 1190
 - pitch packs: 1190
-- social handles indexed: 859
+- social handles indexed: 863
 - canonical near-duplicates routed to human review: 20
 
 ## Score distribution
@@ -51,15 +51,15 @@ _Generated: 2026-07-02T06:46:30.748452+00:00_
 | band | count |
 | --- | --- |
 | urgent_opportunity | 4 |
-| good_opportunity | 79 |
-| possible_opportunity | 1107 |
+| good_opportunity | 77 |
+| possible_opportunity | 1109 |
 | low_priority | 546 |
 
 ## Validation
 
 - overall: **PASS**
 - failing_issues: 0
-- informational_issues: 13
+- informational_issues: 14
 
 ## Next recommended move
 

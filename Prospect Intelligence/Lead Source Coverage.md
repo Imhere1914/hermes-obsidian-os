@@ -1,6 +1,6 @@
 # Lead Source Coverage
 
-_Generated: 2026-07-02T06:46:30.741291+00:00_
+_Generated: 2026-07-02T07:08:23.225436+00:00_
 
 Lead Finder is the **umbrella layer** that joins the canonical
 business repository with every lead_finder artifact (scores,
@@ -46,7 +46,7 @@ is workflow.
 
 | enrichment_source | records_with_this_source |
 | --- | --- |
-| website_crawl | 537 |
+| website_crawl | 542 |
 | social_handle_extraction | 396 |
 
 ## Workflow source counts
@@ -68,9 +68,9 @@ phase_e_la, pilot_output). The numbers above reflect that.
 
 | conversation_readiness_status | count |
 | --- | --- |
-| needs_enrichment | 958 |
+| needs_enrichment | 962 |
 | not_ready | 756 |
-| needs_crawl | 15 |
+| needs_crawl | 11 |
 | ready_for_review | 5 |
 | no_ci_data | 2 |
 
@@ -80,8 +80,8 @@ phase_e_la, pilot_output). The numbers above reflect that.
 | --- | --- | --- |
 | with website | 1220 | 70.3% |
 | with phone | 1691 | 97.4% |
-| with email | 586 | 33.8% |
-| with business social | 394 | 22.7% |
+| with email | 587 | 33.8% |
+| with business social | 395 | 22.8% |
 | with website_opportunity_score | 1736 | 100.0% |
 | with mockup recommendation | 1190 | 68.5% |
 | with preview_url | 1190 | 68.5% |
@@ -91,5 +91,5 @@ phase_e_la, pilot_output). The numbers above reflect that.
 
 - overall: **PASS**
 - failing: 0
-- informational: 13
-- checks_run: 42
+- informational: 14
+- checks_run: 43

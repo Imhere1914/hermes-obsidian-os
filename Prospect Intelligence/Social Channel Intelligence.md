@@ -1,8 +1,8 @@
 # Social Channel Intelligence
 
-_Generated: 2026-07-02T06:46:30.775401+00:00_
+_Generated: 2026-07-02T07:08:23.258047+00:00_
 
-- business social handles indexed: 859
+- business social handles indexed: 863
 - Decision-maker social handles: research only. No automated personal social outreach.
 - No social scraping. No login. No DMs. No send queue.
 
@@ -10,10 +10,10 @@ _Generated: 2026-07-02T06:46:30.775401+00:00_
 
 | platform | count |
 | --- | --- |
-| facebook | 377 |
-| instagram | 147 |
-| linkedin | 104 |
-| x | 88 |
+| facebook | 378 |
+| instagram | 148 |
+| linkedin | 105 |
+| x | 89 |
 | yelp | 52 |
 | gbp_url | 47 |
 | youtube | 43 |
