@@ -1,11 +1,11 @@
 # Web Scrape Leads
 
-_Generated: 2026-07-02T06:20:22.965643+00:00_
+_Generated: 2026-07-02T06:46:30.768542+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `web_scrape`
 .
 
-- records: **48** of 1731 canonical
+- records: **48** of 1736 canonical
 
 | business_name | vertical | city | state | score | mockup_priority | pack | readiness | next_action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

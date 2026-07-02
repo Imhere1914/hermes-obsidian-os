@@ -1,6 +1,6 @@
 # Lead Source Coverage
 
-_Generated: 2026-07-02T06:20:22.937930+00:00_
+_Generated: 2026-07-02T06:46:30.741291+00:00_
 
 Lead Finder is the **umbrella layer** that joins the canonical
 business repository with every lead_finder artifact (scores,
@@ -24,7 +24,7 @@ is workflow.
 | --- | --- |
 | serper | 1698 |
 | web_scrape | 48 |
-| google_places | 8 |
+| google_places | 13 |
 
 ## Primary discovery source distribution
 
@@ -32,11 +32,11 @@ is workflow.
 | --- | --- |
 | serper | 1690 |
 | web_scrape | 33 |
-| google_places | 8 |
+| google_places | 13 |
 
 ## Mixed discovery
 
-- mixed_discovery (>= 2 discovery sources): **17** of 1731 records
+- mixed_discovery (>= 2 discovery sources): **17** of 1736 records
 
 > A record is mixed_discovery only if it was originally discovered
 > by more than one source. Workflow and enrichment steps do NOT
@@ -69,8 +69,8 @@ phase_e_la, pilot_output). The numbers above reflect that.
 | conversation_readiness_status | count |
 | --- | --- |
 | needs_enrichment | 958 |
-| not_ready | 755 |
-| needs_crawl | 11 |
+| not_ready | 756 |
+| needs_crawl | 15 |
 | ready_for_review | 5 |
 | no_ci_data | 2 |
 
@@ -78,14 +78,14 @@ phase_e_la, pilot_output). The numbers above reflect that.
 
 | field | count | pct |
 | --- | --- | --- |
-| with website | 1216 | 70.2% |
-| with phone | 1686 | 97.4% |
-| with email | 586 | 33.9% |
-| with business social | 394 | 22.8% |
-| with website_opportunity_score | 1731 | 100.0% |
-| with mockup recommendation | 1185 | 68.5% |
-| with preview_url | 1185 | 68.5% |
-| with pitch_pack_available | 1185 | 68.5% |
+| with website | 1220 | 70.3% |
+| with phone | 1691 | 97.4% |
+| with email | 586 | 33.8% |
+| with business social | 394 | 22.7% |
+| with website_opportunity_score | 1736 | 100.0% |
+| with mockup recommendation | 1190 | 68.5% |
+| with preview_url | 1190 | 68.5% |
+| with pitch_pack_available | 1190 | 68.5% |
 
 ## Validation
 

@@ -1,6 +1,6 @@
 # Mockup Pipeline
 
-_Generated: 2026-07-02T06:20:22.969821+00:00_
+_Generated: 2026-07-02T06:46:30.773123+00:00_
 
 Generates STRUCTURED mockup payloads only. Never random websites. Never freeform code.
 
@@ -9,7 +9,7 @@ Generates STRUCTURED mockup payloads only. Never random websites. Never freeform
 | template | count |
 | --- | --- |
 | generic_local_service_v1 | 1150 |
-| hvac_phone_first_v1 | 17 |
+| hvac_phone_first_v1 | 22 |
 | warehouse_b2b_v1 | 7 |
 | property_management_v1 | 7 |
 | medical_clean_v1 | 3 |

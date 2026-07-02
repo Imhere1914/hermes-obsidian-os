@@ -1,8 +1,8 @@
 # Pitch Pack Index
 
-_Generated: 2026-07-02T06:20:22.971006+00:00_
+_Generated: 2026-07-02T06:46:30.774078+00:00_
 
-- pitch packs: 1185
+- pitch packs: 1190
 - approved_for_send: **false** for every pack
 - requires_human_review: **true** for every pack
 - no_outreach_performed: **true** for every pack

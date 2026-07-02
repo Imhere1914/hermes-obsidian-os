@@ -1,15 +1,20 @@
 # Google Places Leads
 
-_Generated: 2026-07-02T06:20:22.966682+00:00_
+_Generated: 2026-07-02T06:46:30.769666+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `google_places`
 .
 
-- records: **8** of 1731 canonical
+- records: **13** of 1736 canonical
 
 | business_name | vertical | city | state | score | mockup_priority | pack | readiness | next_action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Harlen Johnson HVAC, Plumbing & Electrical | hvac | Dallas | TX | 70 | build_after_review | yes | needs_crawl | save_for_later_review |
+| Fix My Air DFW AC Repair Fort Worth | hvac | Fort Worth | TX | 70 | build_after_review | yes | needs_crawl | save_for_later_review |
+| Arlington AC & Heating | hvac | Arlington | TX | 70 | build_after_review | yes | needs_crawl | save_for_later_review |
+| Spencer Air Conditioning & Heating | hvac | Irving | TX | 70 | build_after_review | yes | needs_crawl | save_for_later_review |
 | Tiger Air Conditioning | hvac | Baton Rouge | LA | 65 | build_after_review | yes | needs_enrichment | save_for_later_review |
+| Plano HVAC Cooling Service | hvac | Plano | TX | 65 | build_after_review | yes | not_ready | needs_crawl_or_enrichment_first |
 | Baton Rouge HVAC Services | hvac | Baton Rouge | LA | 45 | save_for_later | yes | ready_for_review | do_not_pitch_now |
 | Central Heating & Air | hvac | Baton Rouge | LA | 45 | save_for_later | yes | needs_enrichment | do_not_pitch_now |
 | HVAC Experts | hvac | Baton Rouge | LA | 45 | save_for_later | yes | needs_enrichment | do_not_pitch_now |
