@@ -1,6 +1,6 @@
 # Lead Finder
 
-_Generated: 2026-07-02T19:09:14.789834+00:00_
+_Generated: 2026-07-02T19:23:31.784572+00:00_
 
 ## Source strategy
 
@@ -25,8 +25,8 @@ _Generated: 2026-07-02T19:09:14.789834+00:00_
 - vertical: `hvac`
 - metro: `Dallas-Fort-Worth`
 - state: `TX`
-- queries planned: 5
-- estimated API calls: 20
+- queries planned: 6
+- estimated API calls: 24
 - max candidates: 50
 - max API calls: 25
 
@@ -38,12 +38,12 @@ _Generated: 2026-07-02T19:09:14.789834+00:00_
 - merged by name+address: 0
 - skipped (franchise or unrelated): 0
 - newly created canonical records: 0
-- website audits: 1736
-- scores: 1736
-- mockup recommendations: 1190
-- preview URLs: 1190
-- pitch packs: 1190
-- social handles indexed: 863
+- website audits: 1752
+- scores: 1752
+- mockup recommendations: 1204
+- preview URLs: 1204
+- pitch packs: 1204
+- social handles indexed: 907
 - canonical near-duplicates routed to human review: 20
 
 ## Score distribution
@@ -51,9 +51,9 @@ _Generated: 2026-07-02T19:09:14.789834+00:00_
 | band | count |
 | --- | --- |
 | urgent_opportunity | 4 |
-| good_opportunity | 77 |
-| possible_opportunity | 1109 |
-| low_priority | 546 |
+| good_opportunity | 78 |
+| possible_opportunity | 1122 |
+| low_priority | 548 |
 
 ## Validation
 

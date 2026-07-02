@@ -1,6 +1,6 @@
 # Mixed Provenance Leads
 
-_Generated: 2026-07-02T19:09:14.812888+00:00_
+_Generated: 2026-07-02T19:23:31.808277+00:00_
 
 Businesses whose `mixed_discovery = true` — i.e. the record
 was originally discovered by more than one true discovery
@@ -10,7 +10,7 @@ source (e.g. both Serper and web_scrape).
 > re-imported after discovery. Workflow and enrichment
 > steps do NOT contribute to mixed_discovery.
 
-- mixed_discovery records: **17** of 1736 canonical
+- mixed_discovery records: **17** of 1752 canonical
 
 | business_name | vertical | score | discovery_sources | primary_discovery |
 | --- | --- | --- | --- | --- |
