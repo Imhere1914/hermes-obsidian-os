@@ -1,19 +1,19 @@
 # Repository Quality Report
 
-**Generated:** 2026-07-01T07:27:55.960Z
+**Generated:** 2026-07-02T04:51:28.232Z
 
-Total canonical: **48**
+Total canonical: **1731**
 
 ## Missing signals
 
 | signal | missing |
 |--------|--------:|
-| phone | 7 |
-| email | 41 |
-| website | 3 |
+| phone | 45 |
+| email | 1145 |
+| website | 515 |
 | source | 0 |
-| place_id | 25 |
-| enrichment_status=incomplete | 37 |
+| place_id | 24 |
+| enrichment_status=incomplete | 1720 |
 
 ## By canonical_status
 
@@ -22,26 +22,27 @@ Total canonical: **48**
 | active | 18 |
 | incomplete | 0 |
 | lead_gen_suspect | 2 |
-| needs_enrichment | 18 |
-| needs_review | 10 |
+| needs_enrichment | 1702 |
+| needs_review | 9 |
 | rejected | 0 |
 
 ## By enrichment_status (v1.1)
 
 | status | count |
 |--------|------:|
-| incomplete | 37 |
-| pending | 11 |
+| complete | 3 |
+| incomplete | 1720 |
+| pending | 8 |
 
 ## By vertical
 
 | vertical | count |
 |----------|------:|
-| hvac | 20 |
+| unknown | 1686 |
+| hvac | 21 |
 | warehouse | 7 |
-| property_management | 7 |
+| property_management | 6 |
 | medical | 5 |
-| unknown | 3 |
 | commercial_real_estate | 2 |
 | restaurant | 2 |
 | dental_office | 1 |
@@ -51,19 +52,20 @@ Total canonical: **48**
 
 | region | count |
 |--------|------:|
-| Gulf_South | 48 |
+| Gulf_South | 1690 |
+| Unknown | 41 |
 
 ## Rejected records
 
-Total rejected (in `rejected_records.jsonl`): **65**
+Total rejected (in `rejected_records.jsonl`): **75**
 
 ### By rejection_reason
 
 | reason | count |
 |--------|------:|
-| aggregator_or_listicle | 35 |
+| aggregator_or_listicle | 34 |
+| empty_name | 26 |
 | test_artifact | 15 |
-| empty_name | 15 |
 
 ### All rejected records
 
@@ -71,7 +73,6 @@ Total rejected (in `rejected_records.jsonl`): **65**
 - **Logistics & Warehouse Jobs In South Dallas, Texas** — reason: aggregator_or_listicle
 - **Commercial Property Manager jobs in Dallas, Tx** — reason: aggregator_or_listicle
 - **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
-- **15 Best Commercial HVAC Contractors New Orleans** — reason: aggregator_or_listicle
 - **15 Best Commercial HVAC Contractors New Orleans** — reason: aggregator_or_listicle
 - **Bob's Heating** — reason: test_artifact
 - **Smith Mechanical** — reason: test_artifact
@@ -132,3 +133,14 @@ Total rejected (in `rejected_records.jsonl`): **65**
 - **Dallas Medical Center** — reason: aggregator_or_listicle
 - **Logistics & Warehouse Jobs In South Dallas** — reason: aggregator_or_listicle
 - **TOP 10 BEST Commercial Property Management Company** — reason: aggregator_or_listicle
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name
+- **** — reason: empty_name

@@ -89,9 +89,18 @@ Each task should include:
 
 ---
 
-## Rule
 
-Tasks should move the system measurably closer to:
+## Current Tasks
+
+1. Task name: Hardening Demo Booking Visibility
+   Objective: Create a more prominent visual confirmation of appointment booking on the dashboard.
+   Current phase: Phase 1
+   Priority: High
+   Dependencies: None (UI improvement)
+   Risks: Minimal
+   Verification: Check dashboard UI after booking.
+   Completion condition: Booking confirmation is clearly visible without needing to check logs.
+
 - contractor demo readiness
 - operational stability
 - autonomous execution

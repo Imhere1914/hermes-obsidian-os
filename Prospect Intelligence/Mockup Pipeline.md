@@ -1,6 +1,6 @@
 # Mockup Pipeline
 
-_Generated: 2026-07-02T16:44:59.641198+00:00_
+_Generated: 2026-07-02T19:09:14.814983+00:00_
 
 Generates STRUCTURED mockup payloads only. Never random websites. Never freeform code.
 
@@ -29,16 +29,3 @@ Generates STRUCTURED mockup payloads only. Never random websites. Never freeform
 - Do not include license/insured/family-owned/24-7/guaranteed unless supported by source fields.
 - Do not invent trust signals.
 - Do not invent map_url.
-
-## Preview renderer
-
-- compiled payloads: 19 (in-scope templates only)
-- active payload count: 19
-- expired fixture: 1 (`arlington-ac-heating-4f72e8-expired`)
-- sparse fixture: 1 (`plano-hvac-cooling-service-3b6a0d-sparse`)
-- templates implemented: 3 (hvac_phone_first_v1, contractor_quote_v1, generic_local_service_v1)
-- Arlington AC acceptance slug: `arlington-ac-heating-4f72e8` (hvac_phone_first_v1)
-- noindex policy: enforced in the renderer (every page sets `<meta name="robots" content="noindex">`)
-- tap-to-call: resolves `vom_demo_number` ?? `payload.phone` -> `tel:<digits>`
-- VOM demo number: field is on the payload; null on all current compiled fixtures
-- no outreach performed: renderer is a read-only render, no sends, no SMS, no email, no DM

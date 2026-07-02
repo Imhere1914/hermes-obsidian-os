@@ -105,7 +105,60 @@ The goal is to allow Dee to quickly understand the state of the system without r
 ---
 
 ## Rule
-
+## Rule
 A Session Summary should answer:
 
 "What materially changed during this work session, and what matters next?"
+
+---
+
+## 2026-05-19 Phase 1 Demo Flow Hardening
+
+Objective:
+- Improve the visible booking confirmation / demo proof layer on the /demo page.
+
+What changed:
+- Added a dedicated demo proof panel that makes the booked appointment outcome visually obvious.
+- Preserved the browser Vapi path, call-me-back flow, onboarding visibility, and invoice follow-up visibility.
+
+Why it matters:
+- The contractor demo now communicates a clear, controlled booking outcome without expanding architecture or relying only on live Vapi.
+
+Verification:
+- npm run build passed.
+- git status and git diff were reviewed.
+
+Risks:
+- The proof remains UI-confirmation-based rather than a deeper booking-system integration.
+- Live voice reliability can still be affected by mic or permission issues.
+
+Recommended next step:
+- Run the demo end to end and confirm the proof card reads clearly to a contractor prospect.
+## 2026-05-19 Phase 1 Booking Visibility Improvement — Execution Complete
+
+Objective:
+- Make the demo booking confirmation visually unmistakable before a prospect.
+
+Commit: 7d918c443bd2e8c155878be84ed932eac6902505 — "Make demo booking confirmation unmistakable"
+
+What was implemented:
+- Added a prominent emerald "APPOINTMENT BOOKED" success banner inside the booking proof card when demoProof exists. Shows check icon, prospect name, and booking timestamp.
+- Replaced the single-line onboarding/invoice note with a structured "What happens next" section: Step 1 Onboarding (amber), Step 2 Invoice Follow-Up (muted).
+- Bottom Phase 1 boundary note was preserved as-is.
+
+Scope:
+- 1 file: src/pages/Demo.tsx (27 insertions, 2 deletions)
+- No new dependencies, no new files, no Supabase/Vapi/routing changes.
+
+Verification:
+- npm run build: passed (3531 modules, 11.99s, no errors)
+- git status: clean working tree
+- git diff: scoped to Demo.tsx booking proof card section only
+
+Phase 1 compliance:
+- Inside BUILD_PHASES Phase 1 allowed work: "improve booking visibility"
+- Does not expand architecture, touch payment, touch production messaging, or require live Vapi.
+- Preserves onboarding and invoice follow-up visibility.
+
+Blockers: none.
+Recommended next step: Run the demo end to end and confirm the proof card reads clearly to a contractor prospect.

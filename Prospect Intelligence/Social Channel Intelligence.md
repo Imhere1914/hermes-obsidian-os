@@ -1,6 +1,6 @@
 # Social Channel Intelligence
 
-_Generated: 2026-07-02T07:08:23.258047+00:00_
+_Generated: 2026-07-02T19:09:14.817509+00:00_
 
 - business social handles indexed: 863
 - Decision-maker social handles: research only. No automated personal social outreach.

@@ -1,6 +1,6 @@
 # Google Places Leads
 
-_Generated: 2026-07-02T07:08:23.252669+00:00_
+_Generated: 2026-07-02T19:09:14.811472+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `google_places`
 .

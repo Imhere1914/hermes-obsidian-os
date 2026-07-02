@@ -1,7 +1,7 @@
 # Business Repository
 
 **Schema version:** 1.1 (canonical JSONL)
-**Generated:** 2026-07-01T07:27:55.960Z
+**Generated:** 2026-07-02T04:51:28.232Z
 **Maintained by:** SC Intelligence
 
 Canonical record store at `data/business_repository/business_repository.jsonl`.
@@ -9,12 +9,12 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Counts
 
-- Total records: **48**
+- Total records: **1731**
 - Active: **18**
-- Needs review: **10**
-- Needs enrichment: **18**
+- Needs review: **9**
+- Needs enrichment: **1702**
 - Lead-gen suspect: **2**
-- Rejected (in `rejected_records.jsonl`): **65**
+- Rejected (in `rejected_records.jsonl`): **75**
 
 ## Invariants
 
@@ -27,15 +27,15 @@ Single source of truth — every index in this directory is a view over it.
 
 ## Provenance
 
-- Source files seen: **29**
-- Records with phone: **41**
-- Records with email: **7**
-- Records with website: **45**
-- Records with place_id: **23**
+- Source files seen: **963**
+- Records with phone: **1686**
+- Records with email: **586**
+- Records with website: **1216**
+- Records with place_id: **1707**
 
 ## Phase A Defect Repair
 
-- **Completed:** 2026-06-30T19:23:06.754Z
+- **Completed:** 2026-07-02T00:46:46.602Z
 - **Defects repaired (D-1..D-8):**
   - D-1: crawl_history.json backfilled from per-record crawl_history[]
   - D-2: missing enrichment_status defaulted to incomplete/pending

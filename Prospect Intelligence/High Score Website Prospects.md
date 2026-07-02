@@ -1,29 +1,8 @@
 # High Score Website Prospects
 
-_Generated: 2026-07-02T16:44:59.642395+00:00_
+_Generated: 2026-07-02T19:09:14.816604+00:00_
 
 Top 50 prospects by website opportunity score (urgent_opportunity and good_opportunity bands).
-
-## Preview renderer acceptance
-
-Arlington AC & Heating is the Lead Finder preview renderer acceptance slug
-(visible at row 11 of the table below). The compiled preview payload
-(`data/lead_finder/preview_payloads/arlington-ac-heating-4f72e8.json`) is
-rendered at `/b2b-prospector/mockups/arlington-ac-heating-4f72e8`.
-
-- compiled payload count: 19
-- active preview count: 19
-- expired preview count: 1 (acceptance fixture: arlington-ac-heating-4f72e8-expired)
-- sparse fixture: 1 (plano-hvac-cooling-service-3b6a0d-sparse; phone/area/services/CTA-text all null)
-- Arlington AC acceptance slug: arlington-ac-heating-4f72e8
-- template: hvac_phone_first_v1
-- templates implemented: hvac_phone_first_v1, contractor_quote_v1, generic_local_service_v1
-- noindex policy: every render sets <meta name="robots" content="noindex">
-- tap-to-call behavior: tel:<digits> resolving vom_demo_number ?? payload.phone
-- VOM demo number field: present in payload schema; null on all current fixtures
-- no outreach performed: 0 sends, 0 SMS, 0 email, 0 DM
-- page-view counter: data/lead_finder/preview_page_views.jsonl
-- evidence bundle: /tmp/lead_finder_mockup_evidence/
 
 | rank | business_name | vertical | city | state | score | band | mockup_priority | reasons |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
