@@ -1,6 +1,6 @@
 # Lead Finder
 
-_Generated: 2026-07-02T16:44:59.616775+00:00_
+_Generated: 2026-07-02T19:04:46.056223+00:00_
 
 ## Source strategy
 
@@ -70,25 +70,6 @@ _Generated: 2026-07-02T16:44:59.616775+00:00_
 
 ## Preview renderer
 
-The Lead Finder preview renderer is live in dev / preview only. It serves
-structured JSON payloads under `data/lead_finder/preview_payloads/<slug>.json`
-and renders them via deterministic React templates. **No outreach performed.**
-
-- route: `/b2b-prospector/mockups/:previewSlug` (Vite preview at 127.0.0.1:4173)
-- compiled preview payload count: 19
-- active preview count: 19
-- expired preview count: 1 (acceptance fixture: arlington-ac-heating-4f72e8-expired)
-- sparse fixture: 1 (plano-hvac-cooling-service-3b6a0d-sparse; phone/area/services/CTA-text all null)
-- Arlington AC acceptance slug: `arlington-ac-heating-4f72e8`
-- Arlington AC business_id: `bid_4f72e8f662f7deceacc4ee94`
-- templates implemented: `hvac_phone_first_v1`, `contractor_quote_v1`, `generic_local_service_v1`
-- noindex policy: every render sets `<meta name="robots" content="noindex">`
-- tap-to-call: `tel:` href resolves to `vom_demo_number` if set, else `payload.phone`
-  (Arlington test: `vom_demo_number=null`, `phone="8175575000"` -> `tel:8175575000`)
-- VOM demo number field: present in the schema (`PreviewPayload.vom_demo_number`),
-  null on all current fixtures; wiring to the demo number source is a downstream task
-- page-view counter: writes one JSONL line per successful render to
-  `data/lead_finder/preview_page_views.jsonl` via the Vite plugin
-- no outreach performed: zero send actions, zero SMS drafts, zero emails, zero
-  DMs, zero GHL/Outscraper/Serper/Google Places calls during this milestone
-- evidence bundle: `/tmp/lead_finder_mockup_evidence/`
+See [[Preview Renderer]] for the first-class preview-renderer view
+(route, acceptance slug, payload counts, template coverage,
+tap-to-call, noindex, page-view counter, evidence bundle).
