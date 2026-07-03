@@ -1,6 +1,6 @@
 # Mockup Pipeline
 
-_Generated: 2026-07-02T21:38:51.468453+00:00_
+_Generated: 2026-07-03T02:43:09.203995+00:00_
 
 Generates STRUCTURED mockup payloads only. Never random websites. Never freeform code.
 

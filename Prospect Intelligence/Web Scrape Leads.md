@@ -1,6 +1,6 @@
 # Web Scrape Leads
 
-_Generated: 2026-07-02T21:38:51.462658+00:00_
+_Generated: 2026-07-03T02:43:09.198712+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `web_scrape`
 .

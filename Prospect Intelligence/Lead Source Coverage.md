@@ -1,6 +1,6 @@
 # Lead Source Coverage
 
-_Generated: 2026-07-02T21:38:51.405234+00:00_
+_Generated: 2026-07-03T02:43:09.137490+00:00_
 
 Lead Finder is the **umbrella layer** that joins the canonical
 business repository with every lead_finder artifact (scores,

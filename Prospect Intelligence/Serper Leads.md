@@ -1,6 +1,6 @@
 # Serper Leads
 
-_Generated: 2026-07-02T21:38:51.464656+00:00_
+_Generated: 2026-07-03T02:43:09.200767+00:00_
 
 This view lists the businesses whose `discovery_source_types` includes `serper`
 .
